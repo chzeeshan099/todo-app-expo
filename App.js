@@ -5,11 +5,14 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import generateRandomNumber from "./src/screens/RandomNumberScreen";
 import { HistoryProvider } from "./src/context/HistoryContext";
 import "./global.css";
+import { TaskProvider } from "./src/context/TaskContext";
+import AppNavigator from "./src/AppNavigator/AppNavigator";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <HistoryProvider>
+    <>
+    {/* <HistoryProvider>
       <SafeAreaProvider>
         <NavigationContainer>
           <SafeAreaView className="flex-1 bg-black">
@@ -19,11 +22,17 @@ export default function App() {
               screenOptions={{ headerShown: false }}
             >
               <Stack.Screen name="RandomNumberScreen" component={generateRandomNumber} />
-              
+
             </Stack.Navigator>
           </SafeAreaView>
         </NavigationContainer>
       </SafeAreaProvider>
-    </HistoryProvider>
+    </HistoryProvider> */}
+
+    <TaskProvider>
+      <AppNavigator />
+    </TaskProvider>
+    
+    </>
   );
 }
