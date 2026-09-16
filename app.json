@@ -4,7 +4,7 @@
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/final icon (1).png",
+    "icon": "./assets/todo-logo.png",
     "userInterfaceStyle": "light",
 
     "ios": {
@@ -14,7 +14,7 @@
     "android": {
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/final icon (1).png",
+        "foregroundImage": "./assets/todo-logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.readyme.todoapp"
@@ -22,7 +22,7 @@
 
     "web": {
       "bundler": "metro",
-      "favicon": "./assets/final icon (1).png"
+      "favicon": "./assets/todo-logo.png"
     },
 
     "plugins": [
