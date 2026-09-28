@@ -6,11 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/todo-logo.png",
     "userInterfaceStyle": "light",
-
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
       "versionCode": 1,
       "adaptiveIcon": {
@@ -19,23 +17,20 @@
       },
       "package": "com.readyme.todoapp"
     },
-
     "web": {
       "bundler": "metro",
       "favicon": "./assets/todo-logo.png"
     },
-
     "plugins": [
       "expo-status-bar",
-      "@react-native-community/datetimepicker"
+      "@react-native-community/datetimepicker",
+      "expo-sharing"
     ],
-
     "extra": {
       "eas": {
         "projectId": "f7bd7f6b-fa39-42f6-bc12-6a53e81d48c3"
       }
     },
-
     "owner": "readyme"
   }
 }
