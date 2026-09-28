@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Todo App",
-    "slug": "todo-app",
+    "slug": "todo-app-dcugwlsfccfiwmujaxltj",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/todo-logo.png",
@@ -28,9 +28,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "f7bd7f6b-fa39-42f6-bc12-6a53e81d48c3"
+        "projectId": "f1c6c409-d4d6-459f-bfc1-5dae309446ff"
       }
     },
-    "owner": "readyme"
+    "owner": "readymes-team"
   }
 }
